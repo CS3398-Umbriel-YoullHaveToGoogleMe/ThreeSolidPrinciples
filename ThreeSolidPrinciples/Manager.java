@@ -7,8 +7,8 @@ package threesolid;
 class Manager {
 	IWorker worker;
 
-	public void Manager() {
-
+	public Manager() {
+		//Constructor
 	}
 	public void setWorker(IWorker w) {
 		worker=w;
