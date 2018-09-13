@@ -18,3 +18,21 @@ class Manager {
 		worker.work();
 	}
 }
+//ProjectManger inherits from Manager class and adds
+//schedulework method
+class ProjectManager extends Manager {
+	public void schedulework(){
+		System.out.format("schedule work for workers\n")
+
+	}
+
+}
+
+//PruductManager inherits from Manager class and add
+//defineproduct method
+class ProductManager extends Manager {
+	public void defineproduct(){(
+			System.out.format("define product used\n")
+
+	}
+}
