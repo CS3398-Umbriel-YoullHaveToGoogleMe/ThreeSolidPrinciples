@@ -9,22 +9,27 @@ modification.
 
 package threesolid;
 
-class Worker implements IWorker, IEmployee {
-	public void work(){
-		System.out.println("Worker working...");
+class Worker implements IWorker, IEmployee, IEat, ISick {
+	public void sick() {
+		System.out.println("Worker is sick...");
 	}
 
-	public void eat(){
+	public void eat() {
 		System.out.println("Worker eating...");
 	}
 };
 
-class SuperWorker implements IWorker, IEmployee {
-	public void work(){
-		System.out.println("SuperWorker is soopa working...");
+class SuperWorker implements IWorker, IEmployee, IEat, ISick {
+	public void sick() {
+		System.out.println("SuperWorker is soopa sick...");
 	}
 
-	public void eat(){
+	public void eat() {
 		System.out.println("SuperWorker is soopa eating...");
+	}
+	
+	@Override
+	public void work() {
+		//work() is being overridden.
 	}
 };
