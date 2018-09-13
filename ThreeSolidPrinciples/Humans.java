@@ -9,7 +9,7 @@ modification.
 
 package threesolid;
 
-class Worker implements IWorker, IEmployee, IEat, ISick {
+class Worker extends BaseWorker implements IWorker, IEmployee, IEat, ISick {
 	public void sick() {
 		System.out.println("Worker is sick...");
 	}
@@ -19,7 +19,7 @@ class Worker implements IWorker, IEmployee, IEat, ISick {
 	}
 };
 
-class SuperWorker implements IWorker, IEmployee, IEat, ISick {
+class SuperWorker extends BaseWorker implements IWorker, IEmployee, IEat, ISick {
 	public void sick() {
 		System.out.println("SuperWorker is soopa sick...");
 	}
