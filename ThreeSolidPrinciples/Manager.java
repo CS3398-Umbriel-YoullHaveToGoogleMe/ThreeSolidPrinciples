@@ -22,7 +22,7 @@ class Manager {
 //schedulework method
 class ProjectManager extends Manager {
 	public void schedulework(){
-		System.out.format("schedule work for workers\n")
+		System.out.format("schedule work for workers\n");
 
 	}
 
@@ -31,8 +31,8 @@ class ProjectManager extends Manager {
 //PruductManager inherits from Manager class and add
 //defineproduct method
 class ProductManager extends Manager {
-	public void defineproduct(){(
-			System.out.format("define product used\n")
+	public void defineproduct(){
+			System.out.format("define product used\n");
 
 	}
 }
