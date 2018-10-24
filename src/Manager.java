@@ -4,7 +4,7 @@ principle since we can have one person working on this file if needed. It does n
 Segregation principle*/
 package threesolid;
 
-class Manager {
+public class Manager {
 	IWorker worker;
 
 	public Manager() {
