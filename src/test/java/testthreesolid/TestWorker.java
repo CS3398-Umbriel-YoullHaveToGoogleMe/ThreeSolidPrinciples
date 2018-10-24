@@ -1,6 +1,6 @@
 //This file will contain the test class for Worker.java.
 
-package <your team’s package name here>;
+package threesolid;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
