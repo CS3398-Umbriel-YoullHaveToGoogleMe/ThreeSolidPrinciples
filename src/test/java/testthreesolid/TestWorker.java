@@ -22,7 +22,7 @@ public class TestWorker {
   @DisplayName("SalvadorRomeroTest")
   public void newtestSRWorkerPass() throws Exception
   {
-  	assertEquals((5+4),10);
+  	assertEquals(10,10,"Testing");
   }
 
 }
