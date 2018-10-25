@@ -18,4 +18,11 @@ public class TestWorker {
 
   }
 
+  @Test
+  @DisplayName("SalvadorRomeroTest")
+  public void newtestSRWorkerPass()
+  {
+  	assertEquals((5+5),10, "Error Test did not pass");
+  }
+
 }
