@@ -14,7 +14,7 @@ public class TestWorker {
   public void testRobotMethod()
   {
   //  assertEquals("Worker working...","I'm working already!","Mismatch between test text and method text");
-    assertEquals(w.reboot(),"I am already rebooting!","Mismatch between test text and method text");
+    assertEquals(w.Robot(),"I am already rebooting!","Mismatch between test text and method text");
   }
 
 }
