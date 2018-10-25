@@ -14,8 +14,15 @@ public class TestWorker {
   @DisplayName("Work Method Test")
   public void testWorkMethod()
   {
-    assertEquals("Worker working...","I'm working already!","Mismatch between test text and method text");
+    assertEquals(w.work(),"I'm working already!","Mismatch between test text and method text");
 
   }
 
+  @Test
+  @DisplayName("(M. Stephens)SuperWorker_Test")
+  public void testSuperWorkerMethod()
+  {
+    assertEquals("SuperWorker is soopa eating...","I'm done eating!","Mismatch between test text and method text");
+
+  }
 }
