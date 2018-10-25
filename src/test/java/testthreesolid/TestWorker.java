@@ -20,9 +20,9 @@ public class TestWorker {
 
   @Test
   @DisplayName("SalvadorRomeroTest")
-  public void newtestSRWorkerPass()
+  public void newtestSRWorkerPass() throws Exception
   {
-  	assertEquals((5+4),10, "Error Test did not pass");
+  	assertEquals((5+4),10);
   }
 
 }
