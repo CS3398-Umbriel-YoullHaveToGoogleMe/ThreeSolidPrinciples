@@ -8,7 +8,8 @@ import org.junit.jupiter.api.Test;
 public class TestWorker {
 
 
-  private Worker w = new Worker();
+  private BaseWorker w = new BaseWorker();
+
 
   @Test
   @DisplayName("Work Method Test")
@@ -18,7 +19,7 @@ public class TestWorker {
   public void testWorkMethod()
   {
   //  assertEquals(0, multiply(10, 0), "10 x 0 must be 0");
-    assertEquals("Worker working...","I'm working already!","Mismatch between test text and method text");
+    assertEquals(w.work(),"Working...","Mismatch between test text and method text");
 
   }
 }
