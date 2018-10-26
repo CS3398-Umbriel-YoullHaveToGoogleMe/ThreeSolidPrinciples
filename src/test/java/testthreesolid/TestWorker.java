@@ -18,7 +18,6 @@ public class TestWorker {
 
     }
 
-<<<<<<< HEAD
     private SuperWorker sw = new SuperWorker();
 
     @Test
