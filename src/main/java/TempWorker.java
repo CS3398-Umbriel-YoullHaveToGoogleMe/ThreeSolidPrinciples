@@ -12,7 +12,7 @@ package threesolid;
 public class TempWorker extends BaseWorker implements IEat,ISick {
 	public String eat() {
 		System.out.println("Tempworker is eating...");
-		return("Tempworker is eating...");
+		return "Tempworker is eating...";
 	}
 
 	public void sick() {
