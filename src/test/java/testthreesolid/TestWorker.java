@@ -28,3 +28,4 @@ public class TestWorker {
    assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
 
   }
+}
