@@ -23,7 +23,7 @@ public class TestWorker {
   @Test
   @DisplayName("(Aadil Khatri)Multiplying_Test")
   public void multiplicationOfZeroIntegersShouldReturnZero() {
-        private SuperWorker sw = new SuperWorker(); // MyClass is tested
+    private SuperWorker sw = new SuperWorker(); // MyClass is tested
 
         // assert statements
         assertEquals(0, sw.multiply(10, 0), "10 x 0 must be 0");
