@@ -6,7 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class TestWorker {
-  
+
 
   private BaseWorker w = new BaseWorker();
 
@@ -18,13 +18,20 @@ public class TestWorker {
 
   }
 
-  private SuperWorker sw = new SuperWorker();
+//  private SuperWorker sw = new SuperWorker();
 
   @Test
-  @DisplayName("(M. Stephens)SuperWorker_Test")
-  public void testSuperWorkerMethod()
-  {
-    assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
+  @DisplayName("(Aadil Khatri)Multiplying_Test")
+  public void multiplicationOfZeroIntegersShouldReturnZero() {
+        MyClass tester = new MyClass(); // MyClass is tested
+
+        // assert statements
+        assertEquals(0, tester.multiply(10, 0), "10 x 0 must be 0");
+        assertEquals(0, tester.multiply(0, 10), "0 x 10 must be 0");
+        assertEquals(0, tester.multiply(0, 0), "0 x 0 must be 0");
+    }
+  //public void testSuperWorkerMethod()
+  //{
+  //  assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
 
   }
-}
