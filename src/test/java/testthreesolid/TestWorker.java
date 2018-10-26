@@ -14,8 +14,6 @@ public class TestWorker {
   @Test
   @DisplayName("Work Method Test")
 //  public void multiplicationOfZeroIntegersShouldReturnZero() {
-
-
   public void testWorkMethod()
   {
   //  assertEquals(0, multiply(10, 0), "10 x 0 must be 0");
