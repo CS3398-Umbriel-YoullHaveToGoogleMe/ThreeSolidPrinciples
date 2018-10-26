@@ -6,5 +6,5 @@ Which has a method of eat.
 package threesolid;
 
 public interface IEmployee {
-	public void eat();
+	public String eat();
 }
