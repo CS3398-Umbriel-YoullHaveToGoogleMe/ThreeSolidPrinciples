@@ -8,14 +8,23 @@ import org.junit.jupiter.api.Test;
 public class TestWorker {
   
 
-  private Worker w = new Worker();
+  private BaseWorker w = new BaseWorker();
 
   @Test
   @DisplayName("Work Method Test")
   public void testWorkMethod()
   {
-    assertEquals("Worker working...","I'm working already!","Mismatch between test text and method text");
+    assertEquals(w.work(),"Working...","Mismatch between test text and method text");
 
   }
 
+  private SuperWorker sw = new SuperWorker();
+
+  @Test
+  @DisplayName("(M. Stephens)SuperWorker_Test")
+  public void testSuperWorkerMethod()
+  {
+    assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
+
+  }
 }

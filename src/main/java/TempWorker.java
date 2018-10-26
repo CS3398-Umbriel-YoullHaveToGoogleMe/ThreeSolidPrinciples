@@ -10,8 +10,9 @@
 package threesolid;
 
 public class TempWorker extends BaseWorker implements IEat,ISick {
-	public void eat() {
+	public String eat() {
 		System.out.println("Tempworker is eating...");
+		return "Tempworker is eating...";
 	}
 	
 	public void sick() {
@@ -19,8 +20,9 @@ public class TempWorker extends BaseWorker implements IEat,ISick {
 	}
 	
 	@Override
-	public void work() {
+	public String work() {
 		System.out.println("TempWorker is working...");
 		//work() is being overridden.
+		return "TempWorker is working...";
 	}
 }
