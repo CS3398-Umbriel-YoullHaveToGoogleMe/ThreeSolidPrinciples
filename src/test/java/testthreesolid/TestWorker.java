@@ -23,12 +23,12 @@ public class TestWorker {
   @Test
   @DisplayName("(Aadil Khatri)Multiplying_Test")
   public void multiplicationOfZeroIntegersShouldReturnZero() {
-        MyClass tester = new MyClass(); // MyClass is tested
+        private SuperWorker sw = new SuperWorker(); // MyClass is tested
 
         // assert statements
-        assertEquals(0, tester.multiply(10, 0), "10 x 0 must be 0");
-        assertEquals(0, tester.multiply(0, 10), "0 x 10 must be 0");
-        assertEquals(0, tester.multiply(0, 0), "0 x 0 must be 0");
+        assertEquals(0, sw.multiply(10, 0), "10 x 0 must be 0");
+        assertEquals(0, sw.multiply(0, 10), "0 x 10 must be 0");
+        assertEquals(0, sw.multiply(0, 0), "0 x 0 must be 0");
     }
   //public void testSuperWorkerMethod()
   //{
