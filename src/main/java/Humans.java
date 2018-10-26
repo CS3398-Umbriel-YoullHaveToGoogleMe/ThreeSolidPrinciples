@@ -14,7 +14,7 @@ class Worker extends BaseWorker implements IWorker, IEmployee, IEat, ISick {
 		System.out.println("Worker is sick...");
 	}
 
-	public void eat() {
+	public String eat() {
 		System.out.println("Worker eating...");
 	}
 };
@@ -23,7 +23,7 @@ class SuperWorker extends BaseWorker implements IWorker, IEmployee, IEat, ISick 
 	public void sick() {
 		System.out.println("SuperWorker is soopa sick...");
 	}
-
+ @Override
 	public String eat() {
 		System.out.println("SuperWorker is soopa eating...");
 		return "SuperWorker is soopa eating...";
