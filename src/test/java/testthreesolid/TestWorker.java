@@ -10,14 +10,21 @@ public class TestWorker {
 
   private BaseWorker w = new BaseWorker();
 
-
   @Test
   @DisplayName("Work Method Test")
-//  public void multiplicationOfZeroIntegersShouldReturnZero() {
   public void testWorkMethod()
   {
-  //  assertEquals(0, multiply(10, 0), "10 x 0 must be 0");
     assertEquals(w.work(),"Working...","Mismatch between test text and method text");
 
   }
-}
+
+  //private SuperWorker sw = new SuperWorker();
+
+  //@Test
+//  @DisplayName("(M. Stephens)SuperWorker_Test")
+  //public void testSuperWorkerMethod()
+  //{
+  //  assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
+
+  //}
+//}
