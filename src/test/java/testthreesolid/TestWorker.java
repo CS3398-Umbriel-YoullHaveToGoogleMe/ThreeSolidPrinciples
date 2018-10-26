@@ -18,13 +18,13 @@ public class TestWorker {
 
   }
 
-  //private SuperWorker sw = new SuperWorker();
+//  private SuperWorker sw = new SuperWorker();
+    private SuperWorker sw = new SuperWorker();
+  @Test
+  @DisplayName("(M.Stephens)testSuperWorkerMethod_Test")
 
-  //@Test
-//  @DisplayName("(M. Stephens)SuperWorker_Test")
-  //public void testSuperWorkerMethod()
-  //{
-  //  assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
+  public void testSuperWorkerMethod()
+  {
+   assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
 
-  //}
-}
+  }
