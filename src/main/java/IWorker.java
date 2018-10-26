@@ -8,5 +8,5 @@
 package threesolid;
 
 public interface IWorker {
-	public void work();
+	public String work();
 }
