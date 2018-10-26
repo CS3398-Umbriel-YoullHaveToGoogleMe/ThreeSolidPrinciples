@@ -14,7 +14,7 @@ class Worker extends BaseWorker implements IWorker, IEmployee, IEat, ISick {
 		System.out.println("Worker is sick...");
 	}
 
-	public String eat() {
+	public void eat() {
 		System.out.println("Worker eating...");
 	}
 };
