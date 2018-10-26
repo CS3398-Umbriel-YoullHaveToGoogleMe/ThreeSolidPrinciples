@@ -28,11 +28,11 @@ public class TestWorker {
 
     }
 
-   /* @Test
+    @Test
     @DisplayName("(M. Stephens)SuperWorker_Test")
     public void testWillFailSuperWorkerEatMethod()
     {
         assertEquals(sw.work(),"Destined to Fail...","Mismatch between test text and method text");
 
-    }*/
+    }
 }

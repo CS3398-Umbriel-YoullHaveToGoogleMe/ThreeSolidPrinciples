@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="threesolid.TestWorker" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-10-26T15:30:46" hostname="LAPTOP-NO4TR45A" time="0.012">
+  <properties/>
+  <testcase name="testWorkMethod()" classname="threesolid.TestWorker" time="0.009"/>
+  <testcase name="testSuperWorkerEatMethod()" classname="threesolid.TestWorker" time="0.002"/>
+  <system-out><![CDATA[SuperWorker is soopa eating...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
