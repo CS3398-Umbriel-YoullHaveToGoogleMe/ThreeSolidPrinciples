@@ -21,7 +21,7 @@ public class TestWorker {
     private SuperWorker sw = new SuperWorker();
 
     @Test
-    @DisplayName("(M. Stephens)SuperWorker_Test")
+    @DisplayName("(Aadil Khatri)SuperWorker_Test")
     public void testSuperWorkerEatMethod()
     {
        assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
@@ -29,7 +29,7 @@ public class TestWorker {
     }
 
     @Test
-    @DisplayName("(M. Stephens)SuperWorker_Test")
+    @DisplayName("(Aadil Khatri)SuperWorker_Test")
     public void testWillFailSuperWorkerEatMethod()
     {
         assertEquals(sw.work(),"Destined to Fail...","Mismatch between test text and method text");
