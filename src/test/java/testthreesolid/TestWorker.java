@@ -17,6 +17,7 @@ public class TestWorker {
     assertEquals(w.work(),"Working...","Mismatch between test text and method text");
 
   }
+}
 
 //  private SuperWorker sw = new SuperWorker();
 //    private SuperWorker sw = new SuperWorker();
@@ -28,4 +29,3 @@ public class TestWorker {
 //   assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
 
 //  }
-}
