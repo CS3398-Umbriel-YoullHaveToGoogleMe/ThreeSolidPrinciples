@@ -24,7 +24,7 @@ class SuperWorker extends BaseWorker implements IWorker, IEmployee, IEat, ISick 
 	public void sick() {
 		System.out.println("SuperWorker is soopa sick...");
 	}
- @Override
+ //@Override
 	public String eat() {
 		System.out.println("SuperWorker is soopa eating...");
 		return "SuperWorker is soopa eating...";
