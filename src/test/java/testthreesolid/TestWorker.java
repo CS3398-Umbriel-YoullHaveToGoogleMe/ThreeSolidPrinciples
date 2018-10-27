@@ -32,7 +32,7 @@ public class TestWorker {
     @DisplayName("(Aadil Khatri)SuperWorker_Test")
     public void testWillFailSuperWorkerEatMethod()
     {
-        assertEquals(sw.eat(),"Its bound to fail...","Mismatch between test text and method text");
+        assertEquals(sw.work(),"Its bound to fail...","Mismatch between test text and method text");
 
     }
 }
