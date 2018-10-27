@@ -22,7 +22,7 @@ public class TestWorker {
   @DisplayName("SalvadorRomeroTest")
   public void newtestSRWorkerPass() throws Exception
   {
-  	assertEquals((5+6),10,"Error Test did not pass");
+  	assertEquals(11,10,"Error Test did not pass");
   }
 
 }
