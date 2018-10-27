@@ -21,6 +21,7 @@ public class TestWorker {
   @Test
   @DisplayName("Test that BaseWorker Object Created")
   public void newtestSHWorkerPass() {
+	  BaseWorker worker = new BaseWorker();
 	  assertFalse((worker == null), "worker variable should contain a BaseWorker object");
   }
 
