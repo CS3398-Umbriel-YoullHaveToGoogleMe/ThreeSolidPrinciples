@@ -27,6 +27,15 @@ public class TestWorker {
        assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
 
     }
+    @Test
+    @DisplayName("SalvadorRomeroTest")
+ public void newtestSRWorkerPass() throws Exception
+ {
+   assertEquals((5+4),10);
+   assertEquals(10,10,"Testing");
+ }
+
+}
 
     @Test
     @DisplayName("(Aadil Khatri)SuperWorker_Test")
@@ -35,4 +44,5 @@ public class TestWorker {
         assertEquals(sw.work(),"Its bound to fail...","Mismatch between test text and method text");
 
     }
+
 }
