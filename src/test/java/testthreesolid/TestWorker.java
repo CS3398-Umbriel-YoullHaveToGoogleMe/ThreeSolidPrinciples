@@ -29,13 +29,11 @@ public class TestWorker {
     }
     @Test
     @DisplayName("SalvadorRomeroTest")
- public void newtestSRWorkerPass() throws Exception
- {
+    public void newtestSRWorkerPass() throws Exception
+    {
    assertEquals((5+4),10);
    assertEquals(10,10,"Testing");
- }
-
-}
+    }
 
     @Test
     @DisplayName("(Aadil Khatri)SuperWorker_Test")
