@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class TestWorker {
   
 
-  private Worker w = new Worker();
+  private BaseWorker worker = new BaseWorker();
 
   @Test
   @DisplayName("Work Method Test")
@@ -16,6 +16,12 @@ public class TestWorker {
   {
     assertEquals("Worker working...","I'm working already!","Mismatch between test text and method text");
 
+  }
+  
+  @Test
+  @DisplayName("Test that BaseWorker Object Created")
+  public void newtestSHWorkerPass() {
+	  assertTrue(worker != NULL, "worker variable should contain a BaseWorker object");
   }
 
 }
