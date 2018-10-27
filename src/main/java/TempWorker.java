@@ -22,7 +22,7 @@ public class TempWorker extends BaseWorker implements IEat,ISick {
 	@Override
 	public String work() {
 		System.out.println("TempWorker is working...");
-		return "TempWorker is working...";
 		//work() is being overridden.
+		return "TempWorker is working...";
 	}
 }
