@@ -10,7 +10,7 @@ modification.
 package threesolid;
 
 class Worker extends BaseWorker implements IWorker, IEat, ISick {
-	public string sick() {
+	public String sick() {
 		System.out.println("Worker is sick...");
 	}
 
