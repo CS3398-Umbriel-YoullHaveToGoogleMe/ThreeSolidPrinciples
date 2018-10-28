@@ -20,11 +20,20 @@ public class TestWorker {
 
   private SuperWorker sw = new SuperWorker();
 
+
   @Test
-  @DisplayName("(M. Stephens)SuperWorker_Test")
+  @DisplayName("NabilManasiya_Pass")
   public void testSuperWorkerMethod()
   {
     assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
+
+  }
+    
+  @Test
+  @DisplayName("NabilManasiya_Failed")
+  public void tempworkersickMethod()
+  {
+    assertEquals(sw.sick(),"This will fail for sure","Mismatch between test text and method text");
 
   }
 }
