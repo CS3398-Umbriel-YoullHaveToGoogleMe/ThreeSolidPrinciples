@@ -7,8 +7,6 @@ import org.junit.jupiter.api.Test;
 
 public class TestWorker {
 
-
-<<<<<<< HEAD
   private Worker w = new Worker();
 
   @Test
@@ -25,9 +23,6 @@ public class TestWorker {
   {
   	assertEquals(11,10,"Error Test did not pass");
   }
-
-}
-=======
     private BaseWorker w = new BaseWorker();
 
     @Test
@@ -59,4 +54,3 @@ public class TestWorker {
   //public void testSuperWorkerMethod()
   //{
   //  assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
->>>>>>> Matthew-Stephens
