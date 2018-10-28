@@ -20,17 +20,17 @@ public class TestWorker {
 
     @Test
     @DisplayName("(Aadil Khatri)SuperWorker_Test")
-    public void testSuperWorkerEatMethod()
+    public void testSuperWorkerSickMethod()
     {
-       assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
+       assertEquals(sw.sick(),"SuperWorker is soopa sick...","Mismatch between test text and method text");
 
     }
 
     @Test
     @DisplayName("(Aadil Khatri)SuperWorker_Test")
-    public void testWillFailSuperWorkerEatMethod()
+    public void testWillFailSuperWorkerSickMethod()
     {
-        assertEquals(sw.work(),"Destined to Fail...","Mismatch between test text and method text");
+        assertEquals(sw.sick(),"Destined to Fail...","Mismatch between test text and method text");
 
     }
 }
