@@ -21,9 +21,8 @@ class Worker extends BaseWorker implements IWorker, IEat, ISick {
 };
 
 class SuperWorker extends BaseWorker implements IWorker, IEat, ISick {
-	public String sick() {
+	public void sick() {
 		System.out.println("SuperWorker is soopa sick...");
-        return "SuperWorker is soopa sick...";
 	}
 
 	public String eat() {
