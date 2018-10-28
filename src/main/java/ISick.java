@@ -1,7 +1,6 @@
 package threesolid;
 
 public interface ISick {
-	public String sick();
+	public void sick();
     //System.out.println("Its sick...");
-    return "Its sick";
 };
