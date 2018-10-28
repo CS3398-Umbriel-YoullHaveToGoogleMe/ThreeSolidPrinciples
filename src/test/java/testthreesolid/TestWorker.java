@@ -18,20 +18,6 @@ public class TestWorker {
   }
 
   @Test
-  @DisplayName("SalvadorRomeroTest")
-  public void newtestSRWorkerPass() throws Exception
-  {
-  	assertEquals(11,10,"Error Test did not pass");
-  }
-    private BaseWorker w = new BaseWorker();
-
-    @Test
-    @DisplayName("Work Method Test")
-    public void testWorkMethod()
-    {
-        assertEquals(w.work(),"Working...","Mismatch between test text and method text");
-
-    }
     private SuperWorker sw = new SuperWorker();
 
     @Test
