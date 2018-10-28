@@ -15,8 +15,9 @@ public class TempWorker extends BaseWorker implements IEat,ISick {
 		return "Tempworker is eating...";
 	}
 	
-	public void sick() {
+	public String sick() {
 		System.out.println("TempWorker is sick...");
+        return "TempWorker is sick...";
 	}
 	
 	@Override
