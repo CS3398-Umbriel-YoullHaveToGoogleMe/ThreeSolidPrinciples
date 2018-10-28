@@ -18,22 +18,22 @@ public class TestWorker {
 
   }
 
-  private SuperWorker sw = new SuperWorker();
+  private TempWorker tw = new TempWorker();
 
 
   @Test
   @DisplayName("NabilManasiya_Pass")
-  public void testSuperWorkerMethod()
+  public void testtempWorkerMethod()
   {
-    assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
+    assertEquals(tw.eat(),"Tempworker is eating...","Mismatch between test text and method text");
 
   }
     
   @Test
   @DisplayName("NabilManasiya_Failed")
-  public void tempworkerworkMethod()
+  public void tempworkersickMethod()
   {
-    assertEquals(sw.work(),"This will fail for sure","Mismatch between test text and method text");
+    assertEquals(tw.sick(),"This will fail for sure","Mismatch between test text and method text");
 
   }
 }
