@@ -18,11 +18,10 @@ public class TestWorker {
 
     }
 
-<<<<<<< HEAD
     private SuperWorker sw = new SuperWorker();
 
     @Test
-    @DisplayName("(M. Stephens)SuperWorker_Test")
+    @DisplayName("(Salvador)SuperWorker_Test")
     public void testSuperWorkerEatMethod()
     {
        assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
@@ -30,29 +29,11 @@ public class TestWorker {
     }
 
     @Test
-    @DisplayName("(M. Stephens)SuperWorker_Test")
+    @DisplayName("(Salvador)SuperWorker_Test")
     public void testWillFailSuperWorkerEatMethod()
     {
-        assertEquals(sw.work(),"Destined to Fail...","Mismatch between test text and method text");
+        assertEquals("This matches","This does not match","Mismatch between test text and method text");
 
     }
 }
-=======
-//  private SuperWorker sw = new SuperWorker();
-    private SuperWorker sw = new SuperWorker();
-  @Test
-  @DisplayName("(Aadil Khatri)Multiplying_Test")
-  public void multiplicationOfZeroIntegersShouldReturnZero() {
-   // MyClass is tested
 
-        // assert statements
-        assertEquals(0, sw.multiply(10, 0), "10 x 0 must be 0");
-        assertEquals(0, sw.multiply(0, 10), "0 x 10 must be 0");
-        assertEquals(0, sw.multiply(0, 0), "0 x 0 must be 0");
-    }
-  //public void testSuperWorkerMethod()
-  //{
-  //  assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
-
-  }
->>>>>>> f345a422f27c1d64bb0641c585125ea6a5076c0c
