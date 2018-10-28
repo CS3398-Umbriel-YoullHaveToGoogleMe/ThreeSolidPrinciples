@@ -19,7 +19,7 @@ public class TestWorker {
     private TempWorker tw = new TempWorker();
 
     @Test
-    @DisplayName("(Aadil Khatri)SuperWorker_Test")
+    @DisplayName("(Aadil Khatri)TempWorker_Test")
     public void testTempWorkerSickMethod()
     {
        assertEquals(tw.sick(),"TempWorker is sick...","Mismatch between test text and method text");
@@ -27,7 +27,7 @@ public class TestWorker {
     }
 
     @Test
-    @DisplayName("(Aadil Khatri)SuperWorker_Test")
+    @DisplayName("(Aadil Khatri)TempWorker_Test")
     public void testWillFailTempWorkerEatMethod()
     {
         assertEquals(tw.eat(),"Destined to Fail...","Mismatch between test text and method text");
