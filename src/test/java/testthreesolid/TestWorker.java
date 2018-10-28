@@ -26,13 +26,13 @@ public class TestWorker {
 
     }
 
-  //  @Test
-  //  @DisplayName("(Aadil Khatri)TempWorker_Test")
-  //  public void testWillFailTempWorkerEatMethod()
-  //  {
-  //      assertEquals(tw.eat(),"Destined to Fail...","Mismatch between test text and method text");
+    @Test
+    @DisplayName("(Aadil Khatri)TempWorker_Test")
+    public void testWillFailTempWorkerEatMethod()
+    {
+        assertEquals(tw.eat(),"Destined to Fail...","Mismatch between test text and method text");
 
-  //  }
+    }
 }
 //  private SuperWorker sw = new SuperWorker();
   //public void testSuperWorkerMethod()
