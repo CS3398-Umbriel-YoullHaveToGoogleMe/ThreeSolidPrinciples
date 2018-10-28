@@ -31,9 +31,9 @@ public class TestWorker {
     
   @Test
   @DisplayName("NabilManasiya_Failed")
-  public void tempworkersickMethod()
+  public void tempworkerworkMethod()
   {
-    assertEquals(sw.sick(),"This will fail for sure","Mismatch between test text and method text");
+    assertEquals(sw.work(),"This will fail for sure","Mismatch between test text and method text");
 
   }
 }
