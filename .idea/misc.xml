@@ -3,7 +3,11 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager">
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="9" project-jdk-type="JavaSDK">
+>>>>>>> Matthew-Stephens
     <output url="file://$PROJECT_DIR$/classes" />
   </component>
 </project>
