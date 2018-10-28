@@ -16,8 +16,6 @@ public class TestWorker {
     assertEquals(w.work(),"I'm working already!","Mismatch between test text and method text");
 
   }
-
-  @Test
     private SuperWorker sw = new SuperWorker();
 
     @Test
