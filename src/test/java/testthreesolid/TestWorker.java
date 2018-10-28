@@ -39,5 +39,3 @@ public class TestWorker {
   //public void testSuperWorkerMethod()
   //{
   //  assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
-
-  }
