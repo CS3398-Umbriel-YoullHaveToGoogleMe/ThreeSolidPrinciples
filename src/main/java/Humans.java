@@ -9,28 +9,31 @@ modification.
 
 package threesolid;
 
-class Worker extends BaseWorker implements IWorker, IEmployee, IEat, ISick {
+class Worker extends BaseWorker implements IWorker, IEat, ISick {
 	public void sick() {
 		System.out.println("Worker is sick...");
 	}
 
-	public void eat() {
+	public String eat() {
 		System.out.println("Worker eating...");
+		return "Worker eating...";
 	}
 };
 
-class SuperWorker extends BaseWorker implements IWorker, IEmployee, IEat, ISick {
+class SuperWorker extends BaseWorker implements IWorker, IEat, ISick {
 	public void sick() {
 		System.out.println("SuperWorker is soopa sick...");
 	}
 
-	public void eat() {
+	public String eat() {
 		System.out.println("SuperWorker is soopa eating...");
+		return "SuperWorker is soopa eating...";
 	}
 	
 	@Override
-	public void work() {
+	public String work() {
 		//work() is being overridden.
 		System.out.println("SuperWorker is soopa working...");
+		return "SuperWorker is soopa working...";
 	}
 };

@@ -6,23 +6,36 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class TestWorker {
-  
 
-  private Worker w = new Worker();
 
-  @Test
-  @DisplayName("Work Method Test")
-  public void testWorkMethod()
-  {
-    assertEquals("Worker working...","I'm working already!","Mismatch between test text and method text");
+    private BaseWorker w = new BaseWorker();
 
-  }
+    @Test
+    @DisplayName("Work Method Test")
+    public void testWorkMethod()
+    {
+        assertEquals(w.work(),"Working...","Mismatch between test text and method text");
 
-  @Test
-  @DisplayName("SalvadorRomeroTest")
-  public void newtestSRWorkerPass() throws Exception
-  {
-  	assertEquals(10,10,"Testing");
-  }
+
+    }
+
+    private SuperWorker sw = new SuperWorker();
+
+    @Test
+    @DisplayName("(Salvador)SuperWorker_Test")
+    public void testSuperWorkerEatMethod()
+    {
+       assertEquals(sw.eat(),"SuperWorker is soopa eating...","Mismatch between test text and method text");
+
+    }
+
+    @Test
+    @DisplayName("(Salvador)SuperWorker_Test")
+    public void testWillFailSuperWorkerEatMethod()
+    {
+        assertEquals("This matches","This does not match","Mismatch between test text and method text");
+
+    }
 
 }
+
